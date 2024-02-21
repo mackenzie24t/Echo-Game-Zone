@@ -1,0 +1,29 @@
+body {
+    background-color: #E3C567;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.col-md-4 {
+    color: #573D1C;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+a:link {
+    color: #D57A48;
+}
+  
+a:visited {
+    color: #D1462F;
+}
+  
+a:hover {
+    color: #D1462F;
+}
