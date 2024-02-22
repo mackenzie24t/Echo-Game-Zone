@@ -1,29 +1,46 @@
 body {
+    /* set body background color */
     background-color: #E3C567;
 }
 
+.welcome {
+    /* center header text and change
+       color */
+    text-align: center;
+    color: #573D1C;
+}
+
 .row {
+    /* center cards */
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
 .col-md-4 {
+    /* set header color */
     color: #573D1C;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* cards casts a shadow when the 
+       mouse hovers over them */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 a:link {
+    /* set link colors */
     color: #D57A48;
 }
   
 a:visited {
+    /* set color to links that have 
+       already been visited */
     color: #D1462F;
 }
   
 a:hover {
+    /* set different color to links
+       when a mouse hovers over them */
     color: #D1462F;
 }
